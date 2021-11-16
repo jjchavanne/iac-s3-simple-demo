@@ -7,8 +7,7 @@ resource "aws_s3_bucket" "b" {
     Environment          = "Dev"
   }
 }
-
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "a" {
   bucket = "my-iac-s3-simple-demo-tf-test-bucket-number 3"
   acl    = "private"
 
@@ -18,4 +17,3 @@ resource "aws_s3_bucket" "b" {
   }
 }
 
-#test
