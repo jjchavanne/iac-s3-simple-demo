@@ -12,6 +12,6 @@ resource "aws_s3_bucket" "b" {
     git_modifiers        = "31355989+jjchavanne"
     git_org              = "jjchavanne"
     git_repo             = "iac-s3-simple-demo"
-    yor_trace            = "905be466-dac7-4886-a0e0-066e47fa6bea"
+    yor_trace            = "ad33807a-4bf6-4043-b6ba-a87329015886"
   }
 }
